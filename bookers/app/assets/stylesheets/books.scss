@@ -1,0 +1,183 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif";
+}
+
+.bookers {
+  padding-bottom: 5px;
+}
+
+.list-column-title {
+  font-size: 14px;
+  padding-left: 75px;
+}
+
+.list-column-body {
+  font-size: 14px;
+  padding-left: 165px;
+}
+
+.book-comment {
+  display: inline-block;
+}
+
+.create-box {
+  padding: 15px 35px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.create-buttom {
+  margin-top: 5px;
+}
+
+
+.show-box {
+  margin: 40px 70px;
+  font-size: 14px;
+}
+
+.title-box {
+  margin-top: 30px;
+}
+
+.body-box {
+  margin-top: 30px;
+}
+
+.table {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.table-child {
+  display: inline-block;
+}
+
+.link-box {
+  padding-left: 40px;
+  font-size: 14px;
+}
+
+.edit-link {
+  display: inline-block;
+  color: #000;
+  font-weight: normal;
+}
+
+.back-link {
+  display: inline-block;
+  color: gray;
+  font-weight: normal;
+}
+
+.show-link {
+  display: inline-block;
+  color: #000;
+  font-weight: normal;
+}
+
+.link-box span {
+  font-weight: normal;
+}
+
+.edit-head {
+  padding-left: 40px;
+}
+
+.edit-box {
+  padding-left: 40px;
+}
+
+.update-bottom {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.edit-error-box{
+  width: 450px;
+  border: 2px solid red;
+  margin: 10px 40px;
+}
+
+.index-error-box{
+  width: 450px;
+  border: 2px solid red;
+  margin: 10px 0;
+}
+
+.error-head {
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 12px;
+  padding-left: 15px;
+  font-weight:bold;
+  background-color: crimson;
+}
+
+.error-list {
+  font-size: 13px;
+  padding: 30px 80px;
+  background-color: whitesmoke;
+}
+
+.error-message {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+.title-column {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 40%;
+}
+
+.body-column {
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 40%;
+}
+
+.index-show-link {
+  width: 30px;
+  margin-top: 19px;
+  margin-left: 12px;
+}
+
+.index-edit-link {
+  width: 30px;
+  margin: 19px 5px 0 17px;
+}
+
+.index-destroy-link {
+  width: 30px;
+  margin-top: 19px;
+}
+
+.index-link {
+  font-size: 13px;
+  display: inline-block;
+  color: #000;
+  font-weight: normal;
+}
+
+table {
+  margin-left: 30px;
+  border-collapse: separate;
+  border-spacing: 10px 0px;
+}
